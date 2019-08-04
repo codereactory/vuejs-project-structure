@@ -1,0 +1,32 @@
+{
+  "name": "vuejs-project-structure",
+  "version": "1.0.0",
+  "description": "a simple demo of how to scaffold a vue.js project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js",
+    "clean": "rimraf ./dist/**/*",
+    "pre": "npm run clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codereactory/vuejs-project-structure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codereactory/vuejs-project-structure/issues"
+  },
+  "homepage": "https://github.com/codereactory/vuejs-project-structure#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
